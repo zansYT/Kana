@@ -1373,7 +1373,7 @@ message: {
 "product": {
 "productImage":{
 "mimetype": "image/jpeg",
-"jpegThumbnail": https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg //The picture
+"jpegThumbnail": log0 //The picture
 },
 "title": `${global.ownername}`, 
 "description": `${global.botname}`, 
@@ -1416,7 +1416,7 @@ status: 1,
 surface : 1,
 message: `${global.ownername}`, //
 orderTitle: `${global.botname}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg, //Pic
+thumbnail: log0, //Pic
 sellerJid: '0@s.whatsapp.net'
 
 }
@@ -1430,7 +1430,7 @@ key : {
 message: {
 locationMessage: {
 name: `${global.location}`,
-jpegThumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg
+jpegThumbnail: log0
 }
 }
 }
@@ -1442,7 +1442,7 @@ key : {
 message: {
 documentMessage: {
 title: `${global.botname}`, 
-jpegThumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg
+jpegThumbnail: log0
 }
 }
 }
@@ -1459,7 +1459,7 @@ message: {
 "h": `${global.ownername}`,
 'seconds': '30', 
 'caption': `${global.watermark}`,
-'jpegThumbnail': https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg
+'jpegThumbnail': log0
 }
 }
 }
@@ -1476,7 +1476,7 @@ const fgclink = {
 "inviteCode": `${global.ownername}`,
 "groupName": `${global.botname}`, 
 "caption":`${global.watermark}`, 
-'jpegThumbnail': https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg
+'jpegThumbnail': log0
 }
 }
 }
@@ -1494,7 +1494,7 @@ message: {
  'seconds': "30", 
  'gifPlayback': 'true', 
  'caption': `${global.watermark}`,
- 'jpegThumbnail': https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg
+ 'jpegThumbnail': log0
 }
 }
 } 
@@ -1509,7 +1509,7 @@ message: {
 "extendedTextMessage": {
  "text":`${global.ownername}`,
 "title": `${global.botname}`,
- 'jpegThumbnail': https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg
+ 'jpegThumbnail': log0
 }
 } 
 }
@@ -1668,7 +1668,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: thum,
-jpegThumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
 buttons: buttons,
@@ -3747,7 +3747,7 @@ let buttonsVote = [
 ]
 
 let buttonMessageVote = {
-image: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
 footer: `${global.botname}`,
@@ -3792,7 +3792,7 @@ let buttonsUpvote = [
 ]
 
 let buttonMessageUpvote = {
-image: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
 footer: `${global.botname}`,
@@ -3838,7 +3838,7 @@ let buttonsDevote = [
 ]
 
 let buttonMessageDevote = {
-image: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
 footer: `${global.botname}`,
@@ -4780,7 +4780,7 @@ let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu🥀'}, type: 1}
 ]
 let buttonMessage = {
-image: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image: log0,
 jpegThumbnail: thum,
 caption: teks,
 footer: `${global.botname}`,
@@ -4832,7 +4832,7 @@ let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu🥀'}, type: 1}
 ]
 let buttonMessage = {
-image: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image: log0,
 jpegThumbnail: thum,
 caption: teks,
 footer: `${global.botname}`,
@@ -4856,7 +4856,7 @@ let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu🥀'}, type: 1}
 ]
 let buttonMessage = {
-image: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image: log0,
 jpegThumbnail: thum,
 caption: teks,
 footer: `${global.botname}`,
@@ -5094,7 +5094,7 @@ let buttons = [
 { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
 ]
 let buttonMessage = {
-image: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image: log0,
 jpegThumbnail: thum,
 caption: `*「 ${global.botname} 」*\n\nChange Info, Select Open Or Close`,
 footer: `${botname}`,
@@ -5121,7 +5121,7 @@ let buttons = [
 { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
 ]
 let buttonMessage = {
-image: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image: log0,
 jpegThumbnail: thum,
 caption: `*「 ${global.botname} 」*\n\nChange Group Setting, Select Open Or Close`,
 footer: `${botname}`,
@@ -5875,7 +5875,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title:`${global.ownername}`,
 body:`${global.watermark}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:2,
 mediaUrl: `${global.websitex}`,
 sourceUrl: `{global.websitex}`
@@ -5924,7 +5924,7 @@ anu_list.push({buttonId: `ig ${i.type} ${i.url}`, buttonText: {displayText: `Med
 textbv += `\n\n_Select the media below to download_`
 let buttons = anu_list
 let buttonMessage = {
-image:https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image:log0,
 jpegThumbnail:thum,
 caption: textbv,
 footer: `${global.botname}`,
@@ -6004,7 +6004,7 @@ anu_list.push({buttonId: `ig ${i.type} ${i.url}`, buttonText: {displayText: `Med
 textbv += `\n\n_Select the media below to download_`
 let buttons = anu_list
 let buttonMessage = {
-image:https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+image:log0,
 jpegThumbnail:thum,
 caption: textbv,
 footer: `${global.botname}`,
@@ -6038,7 +6038,7 @@ try {
 XeonBotInc.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.ownername}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:2,
 mediaUrl: `${global.websitex}`,
 sourceUrl: `${global.websitex}`
@@ -6056,7 +6056,7 @@ try {
 XeonBotInc.sendMessage(from, {image:{url:args[0]}, caption:"Success", contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.ownername}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:2,
 mediaUrl: `${global.websitex}`,
 sourceUrl: `${global.websitex}`
@@ -6143,7 +6143,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:1,
 mediaUrl: args[0],
 sourceUrl: args[0]
@@ -6170,7 +6170,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body: "Twitter Downloader",
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:1,
 mediaUrl: args[0],
 sourceUrl: args[0]
@@ -6240,7 +6240,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:"Facebook Downloader",
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:1,
 mediaUrl: args[0],
 sourceUrl: args[0]
@@ -6267,7 +6267,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body: " Facebook Downloader",
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:1,
 mediaUrl: args[0],
 sourceUrl: args[0]
@@ -6302,7 +6302,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title: `${ownername}`,
 body: `${pushname}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:1,
 mediaUrl: q,
 sourceUrl: q
@@ -6444,7 +6444,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
 body: `${global.botname}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
 sourceUrl: anu.url
@@ -6498,7 +6498,7 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.botname}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:2,
 mediaUrl: `${global.websitex}`,
 sourceUrl: `${global.websitex}`
@@ -6511,7 +6511,7 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.botname}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:2,
 mediaUrl: `${global.websitex}`,
 sourceUrl: `${global.websitex}`
@@ -6660,7 +6660,7 @@ headerType: 4,
 contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.ownername}`,
-thumbnail: https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg,
+thumbnail: log0,
 mediaType:2,
 mediaUrl: `${global.websitex}`,
 sourceUrl: `${global.websitex}`
@@ -9174,7 +9174,7 @@ id: 'owner'
 }
 }]
 let txt = `*「 ${global.ownername} Broadcast」*\n\n${text}`
-XeonBotInc.send5ButImg(i, txt, `${global.botname}`, https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg, btn, thum)
+XeonBotInc.send5ButImg(i, txt, `${global.botname}`, log0, btn, thum)
 }
 replay(`Successfully Sent Broadcast To ${anu.length} Group`)
 }
@@ -9215,7 +9215,7 @@ id: 'owner'
 }
 }]
 let txt = `*「 ${global.ownername}'s Broadcast」*\n\n${text}`
-XeonBotInc.send5ButImg(yoi, txt, `${global.botname}`, https://telegra.ph/file/a6cc2417ddc04c26d14e8.jpg, btn, thum)
+XeonBotInc.send5ButImg(yoi, txt, `${global.botname}`, log0, btn, thum)
 }
 replay('Broadcast Success')
 }
@@ -9275,7 +9275,9 @@ break
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: `Please Choose The Menu\n\n`,
+                    description: `Please Choose The Menu
+*DONATE ME DANA OR PULSA*
+*[083813063969]*\n\n`,
                     buttonText: "Menu",
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
