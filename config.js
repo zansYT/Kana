@@ -25,8 +25,8 @@ const fs = require("fs")
 const chalk = require("chalk")
 
 //aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
+global.autoTyping = true //auto tying in gc (true to on, false to off)
+global.autoreadpmngc = true //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = true //auto reading in gc (true to on, false to off)
 global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
@@ -42,25 +42,25 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.owner = ['6283813063969'] //ur owner number
-global.ownername = "FATURRAHMAN"
+global.ownername = "ıl|ẉa.me/˖Fatur-Rahman|l⁩ı"
 global.ytname = "https://tiktok.com/@gw.faturr" //ur yt chanel name
 global.socialm = "GitHub: Faturrbotz" //ur github or insta name
 global.location = "Indonesia" //ur location
 
 //bot bombdy
-global.botname = "Kanna" //ur bot name
+global.botname = "KannaBOT-MD" //ur bot name
 global.websitex = "https://tiktok.com/@gw.faturr" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
-global.packname = "Kanna\n\n\n\n\n\n\ "
+global.packname = "KannaBOT-MD\n\n\n\n\n\n\ "
 global.author = "By FATURRAHMAN"
 global.themeemoji = "🐶"
 global.reactmoji = "😘"
 global.ownertag = ['6283813063969'] //ur owner tag
 global.ownernummenu = ['6283813063969'] //ur owner number in menu and all
 global.watermark = "Created By © Faturr." //ur watermark
-global.botscript = "https://github.com/Faturrbotz/Kannav4"
-global.linkz1 = "-"
-global.linkz2 = "-"
+global.botscript = "www.xnxx.com"
+global.linkz1 = "https://tiktok.com/@gw.faturr"
+global.linkz2 = "https://tiktok.com/@gw.faturr"
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -95,7 +95,7 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Done✓',
-    admin: 'This feature is only for admins!',
+    admin: 'feature is only for admins!',
     botAdmin: 'Bot Must Be Admin First!',
     owner: 'This feature is only for owner',
     group: 'This feature is only for groups!',
